@@ -13,6 +13,9 @@ int bfs(int source){
     while (!q.empty()){
 
         int foo = q.front();
+
+        cout << foo << endl;
+        
         q.pop();
         
         for (int child : graph[foo]){
